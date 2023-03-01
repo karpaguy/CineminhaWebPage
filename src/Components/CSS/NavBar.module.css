@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto%20Slab');
+
+* {
+    box-sizing: border-box;
+}
+
+.NavBar {
+    background-color: #01010A;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+ul {
+    display: flex;
+}
+
+
+li:hover {
+    background-color: aliceblue;
+}
+
+li {
+    font-family: 'Roboto Slab';
+    color: white;
+
+    display: inline;
+}
+
+.Img {
+    height: 100px;
+}
+
+.Img, li {
+    padding: 20px;
+}
