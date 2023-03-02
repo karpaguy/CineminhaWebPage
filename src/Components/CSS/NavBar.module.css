@@ -18,11 +18,12 @@
 
 .NavBar ul li {
     display: flex;
-
 }
 
 .NavItem {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     color: white;
     text-decoration: none;
@@ -30,11 +31,10 @@
     font-family: 'Roboto Slab';
     font-size: 1.6rem;
 
-    flex-direction: column;
-    justify-content: center;
     padding: 0px 20px;
     transition: ease-in-out 0.3s;
 }
+
 
 .NavItem:hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -46,3 +46,6 @@
     margin: 5px;
 }
 
+li:last-child {
+    filter: invert(100%) sepia(94%) saturate(23%) hue-rotate(333deg) brightness(104%) contrast(107%);
+}
